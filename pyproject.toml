@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "experiments2"
+version = "0.1.0"
+description = ""
+authors = ["Dan Nelson <danelson@nwi.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.6"
+pandas = "^2.2.1"
+selenium = "^4.19.0"
+pathlib = "^1.0.1"
+bs4 = "^0.0.2"
+fake-useragent = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
